@@ -7,7 +7,7 @@
 sbt assembly
 ```
 
-Выполнить сборку образа и push в реестр
+2. Выполнить сборку образа и push в реестр
 ```bash
 docker buildx build --platform linux/amd64 -t cr.yandex/crpeqnl53oh327o27qtu/spark/covid-processor:latest .
 docker push cr.yandex/crpeqnl53oh327o27qtu/spark/covid-processor:latest
